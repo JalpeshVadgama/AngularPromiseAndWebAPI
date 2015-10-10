@@ -14,10 +14,11 @@ namespace AngularJSPromise.Controllers
             {
                 new Employee {Id = 1, FirstName = "Jalpesh", LastName = "Vadgama"},
                 new Employee{Id=2, FirstName = "Vishal",LastName = "Vadgama"}
+                
             };
         }
 
-        public IEnumerable<Employee> GetAllProducts()
+        public IEnumerable<Employee> GetEmployees()
         {
             return _employees;
         }

@@ -3,5 +3,16 @@
     ViewBag.Title = "Angular Promise Demo";
 }
 
+
 <h2>Angular Promise Demo</h2>
+<div ng-app="promiseApp">
+    <div>Employees from Angular promise demo</div>
+    <div ng-controller="employeesCtrl">
+        <ul ng-repeat="employee in result">
+            <li>
+                FirstName: {{employee.FirstName}} Last Name: {{employee.LastName}}
+            </li>
+        </ul>
+    </div>
+</div>
 
